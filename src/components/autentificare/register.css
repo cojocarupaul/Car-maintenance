@@ -1,0 +1,47 @@
+form{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    opacity: 0.8;
+    background-color: black;
+    padding: 2em;
+    border-radius: 15px;
+}
+body{
+    background-image: url("thrSk3.jpg");
+}
+input{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 8px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    display: inline-block;
+}
+button{
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 0;
+}
+.seperator b {
+    color:black;
+    width: 40px;
+    height: 40px;
+    margin:auto;
+    font-size: 16px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+}
+form h1{
+    text-align: center;
+}
