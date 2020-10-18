@@ -1,0 +1,86 @@
+.topnav {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav h1{
+    font-family: 'Trade Winds', cursive;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+.left-nav{
+    display: flex;
+}
+.left-nav button{
+    margin-left: 10px;
+    width: 70px;
+}
+.right-nav{
+    display: flex;
+}
+.right-nav button{
+    margin-right: 10px;
+    width: 70px;
+}
+
+
+.container{
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* border: 5px dashed red; */
+}
+.container .card{
+    text-align: center;
+    width: 230px;
+    height: 224px;
+    border-radius: 100%;
+    margin: 0 0 2em 0;
+    /* background: silver; */
+    /* border: 5px dashed red; */
+}
+
+.card .details{
+    padding-top: 25%;
+    display: none;
+}
+.details button{
+    font-size: 25px;
+    width: auto;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.details button:focus{
+    outline: none;
+}
+
+.card:hover img{
+    display: none;
+}
+.card:hover{
+    background: black;
+    /* opacity: 0.7; */
+}
+.card:hover .details{
+    display: block;
+    color: white;
+
+}
+@media screen and (min-width: 800px) {
+    .container .card {
+        margin-right: 11%;
+    }
+
+    .container .card:nth-of-type(3n) {
+        margin-right: 0;
+    }
+}
